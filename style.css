@@ -1,0 +1,92 @@
+/* Body */
+body {
+  font-family: "Lobster", cursive;
+  background-color: #f9f4f5;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+/* Container */
+.container {
+  width: 60%;
+  margin: 20px auto;
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+}
+
+/* Headers */
+h1,
+h2 {
+  color: #e91e63;
+  text-align: center;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Form */
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+label {
+  margin: 10px 0 5px;
+  font-weight: bold;
+  color: #e91e63;
+}
+
+input,
+button {
+  margin: 5px 0;
+  padding: 10px;
+  width: 100%;
+  max-width: 300px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  border: 1px solid #e91e63;
+  transition: all 0.3s ease;
+}
+
+input:focus,
+button:hover {
+  outline: none;
+  border-color: #ff4081;
+  box-shadow: 0 0 5px #ff4081;
+}
+
+button {
+  background-color: #e91e63;
+  color: #fff;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #ff4081;
+}
+
+/* Lists */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin: 10px 0;
+  background: #fce4ec;
+  padding: 10px;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+
+li:hover {
+  background: #f8bbd0;
+}
+
+.margin-top {
+  margin-top: 15px;
+}
